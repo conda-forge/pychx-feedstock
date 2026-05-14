@@ -1,5 +1,5 @@
 {% set name = "pychx" %}
-{% set version = "4.3.1" %}
+{% set version = "4.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.12
     - pip
   run:
-    - python >=3.6
+    - python >=3.12
     - databroker
     - dill
     - eiger-io
@@ -50,7 +50,7 @@ test:
     - pyCHX.v2._futurepyCHX
 
 about:
-  home: https://github.com/NSLS-II/pyCHX
+  home: https://github.com/NSLS2/pyCHX
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
