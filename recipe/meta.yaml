@@ -61,5 +61,6 @@ about:
 
 extra:
   recipe-maintainers:
+    - JGoodrichBNL
     - mrakitin
     - conda-forge/event-model
